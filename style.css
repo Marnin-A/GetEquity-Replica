@@ -1,0 +1,69 @@
+@font-face {
+  font-family: CircularStd-Bold;
+  src: url(./fonts/CircularStd-Bold.otf);
+}
+@font-face {
+  font-family: CircularStd-Medium;
+  src: url(./fonts/CircularStd-Medium.otf);
+}
+* {
+  font-family: CircularStd-Medium;
+  margin: 0%;
+  font-size: 18px;
+  color: #001140;
+}
+.tabs {
+  height: 20.5dvh;
+  background-color: black;
+}
+body {
+  width: 100%;
+  margin: 0%;
+}
+section {
+  height: 100dvh;
+  padding: 0% 4rem;
+}
+.hero {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 239, 186, 0.3),
+    rgba(228, 255, 250, 0.4) 80%,
+    #fdfff5,
+    white 20%
+  );
+}
+#hero-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3rem;
+}
+#hero-blue {
+  color: #2b62f5;
+  font-size: 60px;
+}
+#hero-left > h1 {
+  color: #001140;
+  font-size: 60px;
+}
+#hero-left > p {
+  font-size: 18px;
+}
+#app-links {
+  display: flex;
+  gap: 15px;
+}
+#hero-right {
+  max-width: 650px;
+}
+#hero-right > img {
+  width: 100%;
+}
+#hero-left-bottom {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
